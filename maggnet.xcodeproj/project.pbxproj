@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0060061828CF02D300A78E15 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060061728CF02D300A78E15 /* SignUp.swift */; };
+		0060061B28CF035700A78E15 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060061A28CF035700A78E15 /* AuthViewModel.swift */; };
+		0060061D28CF038700A78E15 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060061C28CF038700A78E15 /* AlertView.swift */; };
+		0060062028CF03E800A78E15 /* NetWorkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060061F28CF03E800A78E15 /* NetWorkError.swift */; };
+		0060062228CF040B00A78E15 /* GlobalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060062128CF040B00A78E15 /* GlobalResponse.swift */; };
+		0060062428CF0FAD00A78E15 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060062328CF0FAD00A78E15 /* Welcome.swift */; };
+		0060062828CF102700A78E15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0060062A28CF102700A78E15 /* Localizable.strings */; };
+		0060063128CF344400A78E15 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060063028CF344400A78E15 /* AppConstants.swift */; };
+		0060063328CF36BA00A78E15 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060063228CF36BA00A78E15 /* AppColors.swift */; };
+		0060063528CF3A7200A78E15 /* CountrySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060063428CF3A7200A78E15 /* CountrySelection.swift */; };
+		0060063728CF3C6900A78E15 /* VerifyOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060063628CF3C6900A78E15 /* VerifyOTP.swift */; };
+		0060063C28CF3CD300A78E15 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060063B28CF3CD300A78E15 /* OTPViewModel.swift */; };
 		00FEF7C728CB47540059449D /* maggnetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEF7C628CB47540059449D /* maggnetApp.swift */; };
 		00FEF7C928CB47540059449D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEF7C828CB47540059449D /* ContentView.swift */; };
 		00FEF7CB28CB47540059449D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FEF7CA28CB47540059449D /* Assets.xcassets */; };
@@ -14,6 +26,10 @@
 		00FEF7D828CB47540059449D /* maggnetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEF7D728CB47540059449D /* maggnetTests.swift */; };
 		00FEF7E228CB47540059449D /* maggnetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEF7E128CB47540059449D /* maggnetUITests.swift */; };
 		00FEF7E428CB47540059449D /* maggnetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEF7E328CB47540059449D /* maggnetUITestsLaunchTests.swift */; };
+		00FEF7F228CB47B00059449D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FEF7F128CB47B00059449D /* Launch Screen.storyboard */; };
+		9307F3FC77EA2F277D5AC85D /* Pods_maggnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFB3DC5C9EE64112BB64C11 /* Pods_maggnet.framework */; };
+		A3D6357AD0F5B3CE52FBED49 /* Pods_maggnet_maggnetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7350AA86663B9F07B51E9D5 /* Pods_maggnet_maggnetUITests.framework */; };
+		B2D4DE551E7F18522B79A3ED /* Pods_maggnetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5291059D499D4315CE53E090 /* Pods_maggnetTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0060061728CF02D300A78E15 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0060061A28CF035700A78E15 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		0060061C28CF038700A78E15 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		0060061F28CF03E800A78E15 /* NetWorkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkError.swift; sourceTree = "<group>"; };
+		0060062128CF040B00A78E15 /* GlobalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalResponse.swift; sourceTree = "<group>"; };
+		0060062328CF0FAD00A78E15 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		0060062928CF102700A78E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0060063028CF344400A78E15 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0060063228CF36BA00A78E15 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		0060063428CF3A7200A78E15 /* CountrySelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelection.swift; sourceTree = "<group>"; };
+		0060063628CF3C6900A78E15 /* VerifyOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOTP.swift; sourceTree = "<group>"; };
+		0060063B28CF3CD300A78E15 /* OTPViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 		00FEF7C328CB47540059449D /* maggnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maggnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FEF7C628CB47540059449D /* maggnetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maggnetApp.swift; sourceTree = "<group>"; };
 		00FEF7C828CB47540059449D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +72,16 @@
 		00FEF7DD28CB47540059449D /* maggnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maggnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FEF7E128CB47540059449D /* maggnetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maggnetUITests.swift; sourceTree = "<group>"; };
 		00FEF7E328CB47540059449D /* maggnetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maggnetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00FEF7F128CB47B00059449D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		11E896ECCCBD56104E76449D /* Pods-maggnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnet.release.xcconfig"; path = "Target Support Files/Pods-maggnet/Pods-maggnet.release.xcconfig"; sourceTree = "<group>"; };
+		381486487EC065CE28C630B0 /* Pods-maggnet-maggnetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnet-maggnetUITests.release.xcconfig"; path = "Target Support Files/Pods-maggnet-maggnetUITests/Pods-maggnet-maggnetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE757E4B08A1483B574AE95 /* Pods-maggnet-maggnetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnet-maggnetUITests.debug.xcconfig"; path = "Target Support Files/Pods-maggnet-maggnetUITests/Pods-maggnet-maggnetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5291059D499D4315CE53E090 /* Pods_maggnetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maggnetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6103E90B407FEE97ABED4006 /* Pods-maggnetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnetTests.debug.xcconfig"; path = "Target Support Files/Pods-maggnetTests/Pods-maggnetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FFB3DC5C9EE64112BB64C11 /* Pods_maggnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maggnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C0A8DDC6DCB4708953CB7E /* Pods-maggnetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnetTests.release.xcconfig"; path = "Target Support Files/Pods-maggnetTests/Pods-maggnetTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7243D77B503E6F1AC1C43CE /* Pods-maggnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maggnet.debug.xcconfig"; path = "Target Support Files/Pods-maggnet/Pods-maggnet.debug.xcconfig"; sourceTree = "<group>"; };
+		F7350AA86663B9F07B51E9D5 /* Pods_maggnet_maggnetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maggnet_maggnetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9307F3FC77EA2F277D5AC85D /* Pods_maggnet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D4DE551E7F18522B79A3ED /* Pods_maggnetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +105,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D6357AD0F5B3CE52FBED49 /* Pods_maggnet_maggnetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0060061628CF02BB00A78E15 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0060062328CF0FAD00A78E15 /* Welcome.swift */,
+				0060061728CF02D300A78E15 /* SignUp.swift */,
+				0060063628CF3C6900A78E15 /* VerifyOTP.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0060061928CF034900A78E15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0060061E28CF03B200A78E15 /* BaseApiModel */,
+				0060063A28CF3CB400A78E15 /* AuthModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0060061E28CF03B200A78E15 /* BaseApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				0060061F28CF03E800A78E15 /* NetWorkError.swift */,
+				0060062128CF040B00A78E15 /* GlobalResponse.swift */,
+			);
+			path = BaseApiModel;
+			sourceTree = "<group>";
+		};
+		0060062528CF100600A78E15 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				0060062A28CF102700A78E15 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		0060063A28CF3CB400A78E15 /* AuthModel */ = {
+			isa = PBXGroup;
+			children = (
+				0060063B28CF3CD300A78E15 /* OTPViewModel.swift */,
+				0060061A28CF035700A78E15 /* AuthViewModel.swift */,
+			);
+			path = AuthModel;
+			sourceTree = "<group>";
+		};
 		00FEF7BA28CB47530059449D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +164,8 @@
 				00FEF7D628CB47540059449D /* maggnetTests */,
 				00FEF7E028CB47540059449D /* maggnetUITests */,
 				00FEF7C428CB47540059449D /* Products */,
+				F9D088C3BD718F6CE52577CB /* Pods */,
+				C5AB2282713304710CBB920B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +182,9 @@
 		00FEF7C528CB47540059449D /* maggnet */ = {
 			isa = PBXGroup;
 			children = (
-				00FEF7C628CB47540059449D /* maggnetApp.swift */,
-				00FEF7C828CB47540059449D /* ContentView.swift */,
-				00FEF7CA28CB47540059449D /* Assets.xcassets */,
+				00FEF7F828CB48260059449D /* Extensions */,
+				00FEF7F528CB47FA0059449D /* Claases */,
+				00FEF7F028CB47600059449D /* SupportingFiles */,
 				00FEF7CC28CB47540059449D /* Preview Content */,
 			);
 			path = maggnet;
@@ -127,6 +215,85 @@
 			path = maggnetUITests;
 			sourceTree = "<group>";
 		};
+		00FEF7F028CB47600059449D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0060062528CF100600A78E15 /* Localization */,
+				00FEF7C828CB47540059449D /* ContentView.swift */,
+				00FEF7F128CB47B00059449D /* Launch Screen.storyboard */,
+				00FEF7CA28CB47540059449D /* Assets.xcassets */,
+				00FEF7C628CB47540059449D /* maggnetApp.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		00FEF7F428CB47D70059449D /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0060063428CF3A7200A78E15 /* CountrySelection.swift */,
+				0060063028CF344400A78E15 /* AppConstants.swift */,
+				0060063228CF36BA00A78E15 /* AppColors.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		00FEF7F528CB47FA0059449D /* Claases */ = {
+			isa = PBXGroup;
+			children = (
+				0060061928CF034900A78E15 /* Models */,
+				00FEF7F728CB48130059449D /* CommonViews */,
+				00FEF7F628CB48020059449D /* Modules */,
+				00FEF7F428CB47D70059449D /* CommonFiles */,
+			);
+			path = Claases;
+			sourceTree = "<group>";
+		};
+		00FEF7F628CB48020059449D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0060061628CF02BB00A78E15 /* Authentication */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		00FEF7F728CB48130059449D /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				0060061C28CF038700A78E15 /* AlertView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		00FEF7F828CB48260059449D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5AB2282713304710CBB920B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FFB3DC5C9EE64112BB64C11 /* Pods_maggnet.framework */,
+				F7350AA86663B9F07B51E9D5 /* Pods_maggnet_maggnetUITests.framework */,
+				5291059D499D4315CE53E090 /* Pods_maggnetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D088C3BD718F6CE52577CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7243D77B503E6F1AC1C43CE /* Pods-maggnet.debug.xcconfig */,
+				11E896ECCCBD56104E76449D /* Pods-maggnet.release.xcconfig */,
+				3DE757E4B08A1483B574AE95 /* Pods-maggnet-maggnetUITests.debug.xcconfig */,
+				381486487EC065CE28C630B0 /* Pods-maggnet-maggnetUITests.release.xcconfig */,
+				6103E90B407FEE97ABED4006 /* Pods-maggnetTests.debug.xcconfig */,
+				A6C0A8DDC6DCB4708953CB7E /* Pods-maggnetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00FEF7E728CB47540059449D /* Build configuration list for PBXNativeTarget "maggnet" */;
 			buildPhases = (
+				6E817D733822CDDB3040108B /* [CP] Check Pods Manifest.lock */,
 				00FEF7BF28CB47540059449D /* Sources */,
 				00FEF7C028CB47540059449D /* Frameworks */,
 				00FEF7C128CB47540059449D /* Resources */,
+				61C0F96942F1B11CCBABDE57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00FEF7EA28CB47540059449D /* Build configuration list for PBXNativeTarget "maggnetTests" */;
 			buildPhases = (
+				4EB5914F1053F346AB3A8D67 /* [CP] Check Pods Manifest.lock */,
 				00FEF7CF28CB47540059449D /* Sources */,
 				00FEF7D028CB47540059449D /* Frameworks */,
 				00FEF7D128CB47540059449D /* Resources */,
@@ -169,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00FEF7ED28CB47540059449D /* Build configuration list for PBXNativeTarget "maggnetUITests" */;
 			buildPhases = (
+				FE5B05073A604AA29A6961F6 /* [CP] Check Pods Manifest.lock */,
 				00FEF7D928CB47540059449D /* Sources */,
 				00FEF7DA28CB47540059449D /* Frameworks */,
 				00FEF7DB28CB47540059449D /* Resources */,
+				053C100ABCE10CA9F7AF784C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +403,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FEF7F228CB47B00059449D /* Launch Screen.storyboard in Resources */,
+				0060062828CF102700A78E15 /* Localizable.strings in Resources */,
 				00FEF7CE28CB47540059449D /* Preview Assets.xcassets in Resources */,
 				00FEF7CB28CB47540059449D /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +426,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		053C100ABCE10CA9F7AF784C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maggnet-maggnetUITests/Pods-maggnet-maggnetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maggnet-maggnetUITests/Pods-maggnet-maggnetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-maggnet-maggnetUITests/Pods-maggnet-maggnetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB5914F1053F346AB3A8D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maggnetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C0F96942F1B11CCBABDE57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maggnet/Pods-maggnet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maggnet/Pods-maggnet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-maggnet/Pods-maggnet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E817D733822CDDB3040108B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maggnet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5B05073A604AA29A6961F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maggnet-maggnetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00FEF7BF28CB47540059449D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0060063528CF3A7200A78E15 /* CountrySelection.swift in Sources */,
+				0060061D28CF038700A78E15 /* AlertView.swift in Sources */,
+				0060063128CF344400A78E15 /* AppConstants.swift in Sources */,
+				0060061B28CF035700A78E15 /* AuthViewModel.swift in Sources */,
+				0060063328CF36BA00A78E15 /* AppColors.swift in Sources */,
 				00FEF7C928CB47540059449D /* ContentView.swift in Sources */,
+				0060063728CF3C6900A78E15 /* VerifyOTP.swift in Sources */,
+				0060062028CF03E800A78E15 /* NetWorkError.swift in Sources */,
+				0060062428CF0FAD00A78E15 /* Welcome.swift in Sources */,
+				0060061828CF02D300A78E15 /* SignUp.swift in Sources */,
+				0060062228CF040B00A78E15 /* GlobalResponse.swift in Sources */,
 				00FEF7C728CB47540059449D /* maggnetApp.swift in Sources */,
+				0060063C28CF3CD300A78E15 /* OTPViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +581,17 @@
 			targetProxy = 00FEF7DE28CB47540059449D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0060062A28CF102700A78E15 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0060062928CF102700A78E15 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00FEF7E528CB47540059449D /* Debug */ = {
@@ -411,20 +710,24 @@
 		};
 		00FEF7E828CB47540059449D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7243D77B503E6F1AC1C43CE /* Pods-maggnet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"maggnet/Preview Content\"";
-				DEVELOPMENT_TEAM = QB7NEZFJ4U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,43 +735,51 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.maggnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		00FEF7E928CB47540059449D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E896ECCCBD56104E76449D /* Pods-maggnet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"maggnet/Preview Content\"";
-				DEVELOPMENT_TEAM = QB7NEZFJ4U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.maggnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		00FEF7EB28CB47540059449D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6103E90B407FEE97ABED4006 /* Pods-maggnetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +800,7 @@
 		};
 		00FEF7EC28CB47540059449D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C0A8DDC6DCB4708953CB7E /* Pods-maggnetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +821,7 @@
 		};
 		00FEF7EE28CB47540059449D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE757E4B08A1483B574AE95 /* Pods-maggnet-maggnetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +840,7 @@
 		};
 		00FEF7EF28CB47540059449D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381486487EC065CE28C630B0 /* Pods-maggnet-maggnetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

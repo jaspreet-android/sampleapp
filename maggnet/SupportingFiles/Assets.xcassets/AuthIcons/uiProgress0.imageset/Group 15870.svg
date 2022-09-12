@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="316" height="21" viewBox="0 0 316 21">
+  <g id="Group_15870" data-name="Group 15870" transform="translate(-43 -161)">
+    <path id="Path_9336" data-name="Path 9336" d="M0,0V294.217" transform="translate(53.606 171.5) rotate(-90)" fill="none" stroke="#818181" stroke-width="0.5"/>
+    <g id="Ellipse_1135" data-name="Ellipse 1135" transform="translate(43 161)" fill="#fff" stroke="#0073ff" stroke-width="1">
+      <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+      <circle cx="10.5" cy="10.5" r="10" fill="none"/>
+    </g>
+    <circle id="Ellipse_1136" data-name="Ellipse 1136" cx="10.5" cy="10.5" r="10.5" transform="translate(142 161)" fill="#fff"/>
+    <circle id="Ellipse_1141" data-name="Ellipse 1141" cx="10.5" cy="10.5" r="10.5" transform="translate(338 161)" fill="#fff"/>
+    <circle id="Ellipse_1138" data-name="Ellipse 1138" cx="10.5" cy="10.5" r="10.5" transform="translate(240 161)" fill="#fff"/>
+    <circle id="Ellipse_1132" data-name="Ellipse 1132" cx="3.5" cy="3.5" r="3.5" transform="translate(50 168)" fill="#818181"/>
+    <circle id="Ellipse_1137" data-name="Ellipse 1137" cx="3.5" cy="3.5" r="3.5" transform="translate(149 168)" fill="#818181"/>
+    <circle id="Ellipse_1140" data-name="Ellipse 1140" cx="3.5" cy="3.5" r="3.5" transform="translate(345 168)" fill="#818181"/>
+    <circle id="Ellipse_1139" data-name="Ellipse 1139" cx="3.5" cy="3.5" r="3.5" transform="translate(247 168)" fill="#818181"/>
+  </g>
+</svg>

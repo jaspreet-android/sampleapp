@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  maggnet
+
+  Created by Deepak on 12/09/22.
+  
+*/
+
+// WELCOME SCREEN
+"welcome" =  "Welcome to Maggnet";
+"choose language" = "Choose you language";
+"language pref" = "Your language prefrencecan be changed anytime in Setting";
+"continue" = "CONTINUE";
+
+//SIGNIN SCREEN
+"create account" = "Create your Account";
+"mobile" = "Mobile Number";
+"signup" = "SIGN UP";
+"login" = "Login";
+"haveAccount" = "Already have an account?";
+"sentCode" = "We sent the code to your mobile number";
+"agreeTo" = "I agree to";
+"t&c" = "Terms & Condition";
+"and" = "and";
+"privacyPolicy" = "Privacy Policy";
+"countryCodes" = "Country Codes";
+
+
