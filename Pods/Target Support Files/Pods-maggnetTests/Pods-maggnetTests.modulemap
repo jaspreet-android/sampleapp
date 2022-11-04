@@ -1,6 +1,0 @@
-framework module Pods_maggnetTests {
-  umbrella header "Pods-maggnetTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
